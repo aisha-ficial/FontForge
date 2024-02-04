@@ -62,18 +62,8 @@ def merge_fonts(font1, font2):
 
 def main():
     st.title("Font Fusion")
-
-    # Set background color to white
-    st.markdown(
-        """
-        <style>
-            body {
-                background-color: #ffffff;
-            }
-        </style>
-        """,
-        unsafe_allow_html=True
-    )
+   
+   
     # Select the first font
     font1 = st.file_uploader("Select the first font file (.ttf or .otf)", type=["ttf", "otf"])
 
