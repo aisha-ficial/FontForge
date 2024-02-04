@@ -110,6 +110,14 @@ const Header = () => {
                   Fuse
                 </a>
               </li>
+               <li>
+                <a
+                  href="/trending"
+                  className="max-md:hidden rounded-full px-2 py-2 -ml-4 text-black hover:bg-gray-300 transition duration-300 ease-in-out"
+                >
+                  Trending
+                </a>
+              </li>
               <li>
                 <a
                   href="/pair"

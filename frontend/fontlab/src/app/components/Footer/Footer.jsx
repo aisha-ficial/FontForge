@@ -110,12 +110,12 @@ const Footer = () => {
               </p>
               <p className="mb-4">
                 <a href="/connect" className=" text-black">
-                  Connect with proffessionals
+                  Connect with professionals
                 </a>
               </p>
               <p className="mb-4">
-                <a href="/pricings" className=" text-black">
-                  Pricings
+                <a href="/trending" className=" text-black">
+                  Trending
                 </a>
               </p>
             </div>
