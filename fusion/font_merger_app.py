@@ -57,31 +57,19 @@ def merge_fonts(font1, font2 , temp_font1 ,temp_font2):
     merged_font.close()
 
     return temp_merged.name
-def preview_font(font_file):
-    if font_file is not None:
-        # Load the font file
-        font = ImageFont.truetype(font_file.name, size=50)
-        
-        # Create a blank image
-        img = Image.new("RGB", (500, 100), color="white")
-        draw = ImageDraw.Draw(img)
-
-        # Draw some text using the loaded font
-        draw.text((10, 10), "Preview Text", font=font, fill="black")
-
-        # Display the image with the text drawn
-        st.image(img, caption="Font Preview", use_column_width=True)
 
 def main():
     st.title("Font Fusion")
-   
+    st.markdown("[Select to Fuse](http://localhost:8501)")
+    st.markdown("[Home](https://font-forge.vercel.app)")
+ 
    
     # Select the first font
     font1 = st.file_uploader("Select the first font file (.ttf or .otf)", type=["ttf", "otf"])
   
     if font1:
         st.subheader("Font 1 Preview")
-        preview_font(font1)
+        # preview_font(font1)
         font1_preview = create_font_preview(font1.name)
         if font1_preview:
             st.image(font1_preview, caption="Font 1 Preview", use_column_width=True)
@@ -97,7 +85,7 @@ def main():
         st.subheader("Font 2 Preview")
         font2_preview = create_font_preview(font2.name)
         if font2_preview:
-            preview_font(font2)
+            # preview_font(font2)
             st.image(font2_preview, caption="Font 2 Preview", use_column_width=True)
         with tempfile.NamedTemporaryFile(delete=False, suffix=".ttf") as temp2:
             temp2.write(font2.read())
