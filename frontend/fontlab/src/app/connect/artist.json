@@ -1,0 +1,172 @@
+{
+  "calligraphists": [
+    {
+      "id": 5,
+      "name": "Ms. Mei Chen",
+      "qualification": "Master Calligrapher",
+      "specialization": ["Cursive Script", "Seal Script"],
+      "experience_years": 20,
+      "location": "Shanghai, China",
+      "email": "mei.chen@example.com",
+      "phone": "+86 123 4567 8901",
+      "profile_picture": "https://twocircles.net/wp-content/uploads/2022/08/Abdul-Kareem-with-his-calligraphy-art-pic-by-Lulu-Ahsana.jpg",
+      "bio": "Ms. Mei Chen is a master calligrapher with over 20 years of experience in cursive script and seal script. Hailing from Shanghai, China, she has dedicated her life to the study and practice of traditional Chinese calligraphy, mastering various scripts and techniques. Ms. Chen's calligraphic works are renowned for their fluidity, grace, and expressive qualities, reflecting her profound understanding of Chinese literary and artistic traditions."
+    },
+    {
+      "id": 6,
+      "name": "Mr. Hiroshi Suzuki",
+      "qualification": "Japanese Calligraphy Master",
+      "specialization": ["Kaisho", "Gyosho"],
+      "experience_years": 18,
+      "location": "Kyoto, Japan",
+      "email": "hiroshi.suzuki@example.com",
+      "phone": "+81 987 6543 210",
+      "profile_picture": "https://static.toiimg.com/thumb/msid-102484962,width-1070,height-580,imgsize-55512,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+      "bio": "Mr. Hiroshi Suzuki is a renowned Japanese calligraphy master specializing in kaisho and gyosho styles. With 18 years of experience, he has dedicated himself to the art of brushwork and ink, exploring the subtleties of line, rhythm, and form in his calligraphic compositions. Based in Kyoto, Japan, Mr. Suzuki's work reflects the elegance and depth of Japanese cultural traditions, resonating with audiences worldwide."
+    },
+    {
+      "id": 7,
+      "name": "Ms. Fatima Hassan",
+      "qualification": "Arabic Calligraphy Specialist",
+      "specialization": ["Diwani", "Ruqah"],
+      "experience_years": 15,
+      "location": "Istanbul, Turkey",
+      "email": "fatima.hassan@example.com",
+      "phone": "+90 123 4567 8901",
+      "profile_picture": "https://th-i.thgim.com/public/incoming/oa4hvc/article65710473.ece/alternates/FREE_1200/4863_1_8_2022_13_37_15_5_BATTATHIRIEXHIBITION_4.JPG",
+      "bio": "Ms. Fatima Hassan is an accomplished Arabic calligraphy specialist with 15 years of experience in diwani and ruqah scripts. Residing in Istanbul, Turkey, she draws inspiration from the rich cultural heritage of the Islamic world, infusing her calligraphic works with spiritual depth and aesthetic beauty. Ms. Hassan's dedication to the art of Arabic calligraphy reflects her commitment to preserving and promoting this timeless tradition."
+    },
+    {
+      "id": 8,
+      "name": "Mr. Kim Sang-hyun",
+      "qualification": "Korean Calligraphy Artist",
+      "specialization": ["Choson-ot", "Gallot"],
+      "experience_years": 12,
+      "location": "Busan, South Korea",
+      "email": "kim.sanghyun@example.com",
+      "phone": "+82 987 6543 210",
+      "profile_picture": "https://d16kd6gzalkogb.cloudfront.net/magazine_images/Street-artist-eL-Seed-is-known-for-his-calligraffiti-technique.-Photo-by-Shima-Houshyar.jpg",
+      "bio": "Mr. Kim Sang-hyun is a talented Korean calligraphy artist specializing in choson-ot and gallot scripts. With 12 years of experience, he infuses his calligraphic works with a sense of vitality and rhythm, capturing the essence of Korean cultural aesthetics. Based in Busan, South Korea, Mr. Kim's innovative approach to calligraphy reflects his passion for exploring new possibilities within traditional artistic forms."
+    },
+    {
+      "id": 9,
+      "name": "Ms. Yara Ali",
+      "qualification": "Arabic Calligraphy Master",
+      "specialization": ["Nastaliq", "Taliq"],
+      "experience_years": 20,
+      "location": "Tehran, Iran",
+      "email": "yara.ali@example.com",
+      "phone": "+98 123 4567 8901",
+      "profile_picture": "https://indiabookofrecords.in/wp-content/uploads/2022/05/Kadeeja-Sana.jpg",
+      "bio": "Ms. Yara Ali is a distinguished Arabic calligraphy master with 20 years of experience in nastaliq and taliq scripts. Based in Tehran, Iran, she is renowned for her mastery of classical calligraphic styles and her innovative approach to contemporary expression. Ms. Ali's calligraphic works are celebrated for their elegance, precision, and profound spiritual resonance, reflecting the rich cultural heritage of Persian calligraphy."
+    },
+    {
+      "id": 10,
+      "name": "Mr. Lee Jae-hoon",
+      "qualification": "Korean Calligraphy Sensei",
+      "specialization": ["Haengsyo", "Korean Typography"],
+      "experience_years": 18,
+      "location": "Incheon, South Korea",
+      "email": "lee.jaehoon@example.com",
+      "phone": "+82 987 6543 210",
+      "profile_picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGFpSMHVe-cdYStdEX_fyC7z9PgB4AVs52SQ&usqp=CAU",
+      "bio": "Mr. Lee Jae-hoon is a respected Korean calligraphy sensei specializing in haengsyo and Korean typography. With 18 years of experience, he shares his expertise and passion for calligraphy through teaching, workshops, and cultural outreach programs. Based in Incheon, South Korea, Mr. Lee's commitment to preserving and promoting Korean calligraphic traditions inspires students and enthusiasts alike to explore the beauty of written language."
+    },
+    {
+      "id": 11,
+      "name": "Ms. Zhang Wei",
+      "qualification": "Chinese Calligraphy Master",
+      "specialization": ["Kaishu", "Xingshu"],
+      "experience_years": 25,
+      "location": "Guangzhou, China",
+      "email": "zhang.wei@example.com",
+      "phone": "+86 123 4567 8901",
+      "profile_picture": "https://media.cnn.com/api/v1/images/stellar/prod/200327155629-india-calligraphy-qamar00014.jpg?q=w_1600,h_900,x_0,y_0,c_fill/h_618",
+      "bio": "Ms. Zhang Wei is a distinguished Chinese calligraphy master with 25 years of experience in kaishu and xingshu scripts. Hailing from Guangzhou, China, she is celebrated for her mastery of classical calligraphic styles and her innovative explorations of contemporary expression. Ms. Zhang's calligraphic works embody a harmonious balance of tradition and innovation, reflecting the enduring vitality of Chinese calligraphy."
+    },
+    {
+      "id": 12,
+      "name": "Mr. Suzuki Hiroto",
+      "qualification": "Japanese Calligraphy Instructor",
+      "specialization": ["Sosho", "Hiragana"],
+      "experience_years": 15,
+      "location": "Osaka, Japan",
+      "email": "suzuki.hiroto@example.com",
+      "phone": "+81 987 6543 210",
+      "profile_picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmj3S-YqZ8_w_uLBP8sx5IdgHbNHPixlGNECghxO9x4U8cn8v_3PDAP_KBAphR9DkBIEs&usqp=CAU",
+      "bio": "Mr. Suzuki Hiroto is a dedicated Japanese calligraphy instructor specializing in sosho and hiragana styles. With 15 years of experience, he imparts his knowledge and passion for calligraphy to students of all ages, fostering creativity, discipline, and cultural appreciation. Based in Osaka, Japan, Mr. Suzuki's commitment to the art of brushwork and ink inspires his students to explore the depths of Japanese calligraphic traditions."
+    },
+    {
+      "id": 13,
+      "name": "Ms. Leila Abbas",
+      "qualification": "Arabic Calligraphy Expert",
+      "specialization": ["Naskh", "Diwani"],
+      "experience_years": 18,
+      "location": "Dubai, United Arab Emirates",
+      "email": "leila.abbas@example.com",
+      "phone": "+971 123 4567 8901",
+      "profile_picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGFpSMHVe-cdYStdEX_fyC7z9PgB4AVs52SQ&usqp=CAU",
+      "bio": "Ms. Leila Abbas is an esteemed Arabic calligraphy expert with 18 years of experience in naskh and diwani scripts. Residing in Dubai, United Arab Emirates, she is recognized for her meticulous craftsmanship and innovative interpretations of classical calligraphic forms. Ms. Abbas's calligraphic works reflect her deep reverence for Arabic script and her dedication to advancing the art of Arabic calligraphy in contemporary contexts."
+    },
+    {
+      "id": 14,
+      "name": "Mr. Park Ji-hoon",
+      "qualification": "Korean Calligraphy Teacher",
+      "specialization": ["Hyeonmin", "Ipan"],
+      "experience_years": 14,
+      "location": "Daegu, South Korea",
+      "email": "park.jihoon@example.com",
+      "phone": "+82 987 6543 210",
+      "profile_picture": "https://media.cnn.com/api/v1/images/stellar/prod/200327155629-india-calligraphy-qamar00014.jpg?q=w_1600,h_900,x_0,y_0,c_fill/h_618",
+      "bio": "Mr. Park Ji-hoon is a dedicated Korean calligraphy teacher specializing in hyeonmin and ipan scripts. With 14 years of experience, he shares his expertise and passion for calligraphy with students of all ages, fostering a deeper appreciation for Korean cultural heritage. Based in Daegu, South Korea, Mr. Park's commitment to excellence and creativity inspires his students to explore the beauty and depth of Korean calligraphic traditions."
+    },
+    {
+      "id": 15,
+      "name": "Ms. Wang Ling",
+      "qualification": "Master Calligrapher",
+      "specialization": ["Regular Script", "Running Script"],
+      "experience_years": 22,
+      "location": "Chengdu, China",
+      "email": "wang.ling@example.com",
+      "phone": "+86 123 4567 8901",
+      "profile_picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmj3S-YqZ8_w_uLBP8sx5IdgHbNHPixlGNECghxO9x4U8cn8v_3PDAP_KBAphR9DkBIEs&usqp=CAU",
+      "bio": "Ms. Wang Ling is a master calligrapher with over 22 years of experience in regular script and running script. Based in Chengdu, China, she is renowned for her graceful brushwork and profound understanding of classical calligraphic traditions. Ms. Wang's calligraphic works are imbued with a sense of harmony and balance, reflecting her deep connection to the rich cultural heritage of Chinese calligraphy."
+    },
+    {
+      "id": 16,
+      "name": "Mr. Yamamoto Takashi",
+      "qualification": "Japanese Calligraphy Sensei",
+      "specialization": ["Reisho", "Katakana"],
+      "experience_years": 17,
+      "location": "Nagoya, Japan",
+      "email": "yamamoto.takashi@example.com",
+      "phone": "+81 987 6543 210",
+      "profile_picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGFpSMHVe-cdYStdEX_fyC7z9PgB4AVs52SQ&usqp=CAU",
+      "bio": "Mr. Yamamoto Takashi is a respected Japanese calligraphy sensei specializing in reisho and katakana scripts. With 17 years of experience, he shares his passion for calligraphy through teaching, workshops, and cultural events, inspiring students to explore the beauty and depth of Japanese script. Based in Nagoya, Japan, Mr. Yamamoto's dedication to the art of brushwork and ink embodies the spirit of Japanese cultural traditions."
+    },
+    {
+      "id": 17,
+      "name": "Ms. Fatima Al-Farsi",
+      "qualification": "Arabic Calligraphy Master",
+      "specialization": ["Thuluth", "Naskh"],
+      "experience_years": 21,
+      "location": "Muscat, Oman",
+      "email": "fatima.alfarsi@example.com",
+      "phone": "+968 123 4567 8901",
+      "profile_picture": "https://th-i.thgim.com/public/incoming/oa4hvc/article65710473.ece/alternates/FREE_1200/4863_1_8_2022_13_37_15_5_BATTATHIRIEXHIBITION_4.JPG",
+      "bio": "Ms. Fatima Al-Farsi is an esteemed Arabic calligraphy master with 21 years of experience in thuluth and naskh scripts. Residing in Muscat, Oman, she is recognized for her mastery of classical calligraphic forms and her innovative approach to contemporary expression. Ms. Al-Farsi's calligraphic works embody a profound sense of beauty, spirituality, and cultural heritage, reflecting the rich traditions of Islamic art and aesthetics."
+    },
+    {
+      "id": 18,
+      "name": "Mr. Kim Dong-hyun",
+      "qualification": "Korean Calligraphy Expert",
+      "specialization": ["Gyonggye", "Korean Seal Script"],
+      "experience_years": 16,
+      "location": "Gwangju, South Korea",
+      "email": "kim.donghyun@example.com",
+      "phone": "+82 987 6543 210",
+      "profile_picture": "https://media.cnn.com/api/v1/images/stellar/prod/200327155629-india-calligraphy-qamar00014.jpg?q=w_1600,h_900,x_0,y_0,c_fill/h_618",
+      "bio": "Mr. Kim Dong-hyun is an accomplished Korean calligraphy expert specializing in gyonggye and Korean seal script. With 16 years of experience, he explores the dynamic interplay of tradition and innovation in his calligraphic works, capturing the essence of Korean cultural aesthetics. Based in Gwangju, South Korea, Mr. Kim's dedication to excellence and creativity inspires others to appreciate the beauty and depth of Korean calligraphic traditions."
+    }
+  ]
+}
