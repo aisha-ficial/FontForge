@@ -127,7 +127,7 @@ export default function NutritionistsPage() {
        <div className="bottom-navigation bottom-0 fixed w-full p-4 md:hidden bg-white shadow-2xl h-fit">
         <div className="flex items-center justify-around md:hidden">
           <div className="flex flex-col items-center">
-            <a href="/fuse">
+            <a href="http://localhost:8502/">
               <img
                 src="/fuse.png"
                 alt=""

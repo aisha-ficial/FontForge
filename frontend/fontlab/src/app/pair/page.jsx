@@ -136,7 +136,7 @@ const [allFonts, setAllFonts] = useState([]);
         </div>
         </div>
 
-  <p className="text-sm max-sm:text-xs text-xl  text-gray-600 mt-20 mx-auto text-center">
+  <p className="max-sm:text-xs text-xl  text-gray-600 mt-20 mx-auto text-center">
    <select
  className="mr-5"
         value={inputFont}
@@ -190,7 +190,7 @@ const [allFonts, setAllFonts] = useState([]);
       <div className="bottom-navigation bottom-0 fixed w-full p-4 md:hidden bg-white shadow-2xl h-fit">
         <div className="flex items-center justify-around md:hidden">
           <div className="flex flex-col items-center">
-            <a href="/fuse">
+            <a href="http://localhost:8502/">
               <img
                 src="/fuse.png"
                 alt=""
