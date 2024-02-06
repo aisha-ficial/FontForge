@@ -23,23 +23,18 @@ def create_font_preview(font_path, preview_text="ABCabc123"):
 
     return image
 
-def merge_fonts(font1, font2 , temp_font1 ,temp_font2):
-    # Check if both fonts are uploaded
-    if not font1 or not font2:
-        st.error("Please upload both fonts.")
-        return None
-
+def merge_fonts(font1_path, font2_path):
     # Check if both fonts have GSUB tables
-    if not has_gsub_table(temp_font1) or not has_gsub_table(temp_font2):
+    if not has_gsub_table(font1_path) or not has_gsub_table(font2_path):
         st.error("One or both of the selected fonts do not have GSUB tables.")
         return None
 
     # Merge fonts
     merger = merge.Merger()
-    merged_font = merger.merge([temp_font1, temp_font2])
+    merged_font = merger.merge([font1_path, font2_path])
 
     # Use line metrics from the first font
-    line_metrics = read_line_metrics(ttLib.TTFont(temp_font1))
+    line_metrics = read_line_metrics(ttLib.TTFont(font1_path))
     set_line_metrics(merged_font, line_metrics)
 
     # Save merged font to a temporary file
@@ -52,15 +47,13 @@ def merge_fonts(font1, font2 , temp_font1 ,temp_font2):
     return temp_merged.name
 
 def main():
-    st.title("Font Fusion") 
+    st.title("Font Fusion")
     st.markdown("[Upload to Fuse](http://localhost:8502)")
     st.markdown("[Home](https://font-forge.vercel.app)")
- 
-    
-    
+
     # Pre-defined font options
     available_fonts = {
-       "Noto Sans Arabic Regular": "NotoSansArabic-Regular.ttf",
+        "Noto Sans Arabic Regular": "NotoSansArabic-Regular.ttf",
         "Adlam Regular": "NotoSansAdlam-Regular.ttf",
         "Adlam Unjoined": "NotoSansAdlamUnjoined-Regular.ttf",
         "Noto Sans Regular": "NotoSans-Regular.ttf",
@@ -87,24 +80,20 @@ def main():
     }
 
     # Select the first font
-    # Select the first font
     font1_option = st.selectbox("Select the first font", options=list(available_fonts.keys()))
     font1_filename = available_fonts[font1_option]
-    font1_path =  font1_filename  # Update path_to_fonts_directory
+    font1_path = os.path.join(os.path.dirname(__file__), font1_filename)
     font1_preview = create_font_preview(font1_path)
 
-# Select the second font
+    # Select the second font
     font2_option = st.selectbox("Select the second font", options=list(available_fonts.keys()))
     font2_filename = available_fonts[font2_option]
-    font2_path =  font2_filename # Update path_to_fonts_directory
+    font2_path = os.path.join(os.path.dirname(__file__), font2_filename)
     font2_preview = create_font_preview(font2_path)
-
-        # st.subheader("Font 2 Preview")
-        # st.image(font2_preview, caption="Font 2 Preview", use_column_width=True)
 
     # Merge fonts
     if st.button("Merge Fonts"):
-        merged_font_path = merge_fonts(font1_path, font2_path, font1_path, font2_path)
+        merged_font_path = merge_fonts(font1_path, font2_path)
         if merged_font_path:
             st.success("Fonts merged successfully.")
             st.subheader("Merged Font Preview")
