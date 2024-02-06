@@ -104,7 +104,7 @@ const Header = () => {
             <>
               <li>
                 <a
-                  href="http://localhost:8502/"
+                  href="https://aisha-ficial-fontforge-fusionfont-select-merger-app-lv2ipd.streamlit.app/"
                   className="max-md:hidden rounded-full px-2 py-2 -ml-4 text-black hover:bg-gray-300 transition duration-300 ease-in-out"
                 >
                   Fuse

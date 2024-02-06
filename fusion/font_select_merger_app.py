@@ -48,7 +48,7 @@ def merge_fonts(font1_path, font2_path):
 
 def main():
     st.title("Font Fusion")
-    st.markdown("[Upload to Fuse](http://localhost:8502)")
+    st.markdown("[Upload to Fuse](https://aisha-ficial-fontforge-fusionfont-merger-app-xuo6lb.streamlit.app/)")
     st.markdown("[Home](https://font-forge.vercel.app)")
 
     # Pre-defined font options

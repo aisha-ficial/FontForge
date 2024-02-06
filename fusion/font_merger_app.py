@@ -60,7 +60,7 @@ def merge_fonts(font1, font2 , temp_font1 ,temp_font2):
 
 def main():
     st.title("Font Fusion")
-    st.markdown("[Select to Fuse](http://localhost:8501)")
+    st.markdown("[Select to Fuse](https://aisha-ficial-fontforge-fusionfont-select-merger-app-lv2ipd.streamlit.app/)")
     st.markdown("[Home](https://font-forge.vercel.app)")
  
    
