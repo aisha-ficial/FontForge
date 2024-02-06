@@ -87,20 +87,20 @@ def main():
     }
 
     # Select the first font
+    # Select the first font
     font1_option = st.selectbox("Select the first font", options=list(available_fonts.keys()))
-    font1_path = os.path.join( available_fonts[font1_option])
+    font1_filename = available_fonts[font1_option]
+    font1_path =  font1_filename  # Update path_to_fonts_directory
     font1_preview = create_font_preview(font1_path)
-    if font1_preview:
-        st.subheader("Font 1 Preview")
-        st.image(font1_preview, caption="Font 1 Preview", use_column_width=True)
 
-    # Select the second font
+# Select the second font
     font2_option = st.selectbox("Select the second font", options=list(available_fonts.keys()))
-    font2_path = os.path.join( available_fonts[font2_option])
+    font2_filename = available_fonts[font2_option]
+    font2_path =  font2_filename # Update path_to_fonts_directory
     font2_preview = create_font_preview(font2_path)
-    if font2_preview:
-        st.subheader("Font 2 Preview")
-        st.image(font2_preview, caption="Font 2 Preview", use_column_width=True)
+
+        # st.subheader("Font 2 Preview")
+        # st.image(font2_preview, caption="Font 2 Preview", use_column_width=True)
 
     # Merge fonts
     if st.button("Merge Fonts"):

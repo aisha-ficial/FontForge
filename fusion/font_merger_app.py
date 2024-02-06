@@ -68,7 +68,7 @@ def main():
     font1 = st.file_uploader("Select the first font file (.ttf or .otf)", type=["ttf", "otf"])
   
     if font1:
-        st.subheader("Font 1 Preview")
+        # st.subheader("Font 1 Preview")
         # preview_font(font1)
         font1_preview = create_font_preview(font1.name)
         if font1_preview:
@@ -82,7 +82,7 @@ def main():
    
 
     if font2:
-        st.subheader("Font 2 Preview")
+        # st.subheader("Font 2 Preview")
         font2_preview = create_font_preview(font2.name)
         if font2_preview:
             # preview_font(font2)
